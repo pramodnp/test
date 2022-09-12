@@ -1,6 +1,0 @@
-apiVersion: v1
-kind: DaemonSet
-metadata:
-  name: DaemonSet Template
-  namespace: default
-spec:
