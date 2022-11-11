@@ -1,0 +1,17 @@
+# Starter pipeline# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yamltrigger:
+- mainvariables:
+  ClientId: "2WK7uUhcC5dw9KFQoytdBugNtxA0849i"
+  ClientSecret: "g1jnPxxvfNB6L_bLITWLPjRywTVaWh-CkH7hGNCnhDUDi2wCOZ7Vi-V9J6EsNqv-"pool: Defaultsteps:
+- script: echo Hello, world!
+  displayName: 'Run a one-line script'- script: |
+    echo Add other tasks to build, test, and deploy your project.
+    echo See https://aka.ms/yaml
+  displayName: 'Run a multi-line script'- task: ZscalerIaCScan@0
+  inputs:
+    region: 'CUSTOM'
+    failBuild: true
+  env:
+    AUTH_URL: "https://z-cwp-int.us.auth0.com"
+    API_URL: "https://int.api.zscwp.io"
