@@ -2,8 +2,8 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yamltrigger:
 - mainvariables:
-  ClientId: "2WK7uUhcC5dw9KFQoytdBugNtxA0849i"
-  ClientSecret: "g1jnPxxvfNB6L_bLITWLPjRywTVaWh-CkH7hGNCnhDUDi2wCOZ7Vi-V9J6EsNqv-"pool: Defaultsteps:
+  ClientId: "gityr31k5sDMiYMdtfFnRdJkuYe87NaY"
+  ClientSecret: "o66Kd0-J0Uj_B7XLsHXiCrryDnwq_NTK25bl4j-1FvDmrG37cTEseUC54rwn-LFO"pool: Defaultsteps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'- script: |
     echo Add other tasks to build, test, and deploy your project.
