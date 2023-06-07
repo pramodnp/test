@@ -11,7 +11,7 @@ resource "aws_s3_bucket" "static" {
         "KeyPrefixEquals": "docs/"
     },
     "Redirect": {
-        "ReplaceKeyPrefixWith": "documents/"
+        "ReplaceKeyPrefixWith"
     }
 }]
 EOF
