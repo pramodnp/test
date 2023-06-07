@@ -1,9 +1,7 @@
 resource "kubernetes_deployment" "example" {
   metadata {
     name = "terraform-example"
-    namespace = "default"
-    labels = {
-      test = "MyExampleApp"
+    namespace = "d
     }
   }
 
